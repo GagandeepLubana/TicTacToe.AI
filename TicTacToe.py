@@ -249,7 +249,6 @@ while run:
 
 		if event.type == pygame.MOUSEBUTTONDOWN:
 			pos = pygame.mouse.get_pos() #attains mouse's position(coordinates)
-			print(pos)
 			if won != True: #only works if no one has won yet
 				if tp_button.collidepoint(pos): #if the two player button is clicked then it switches and redraws
 					win.fill((255, 255, 255))
